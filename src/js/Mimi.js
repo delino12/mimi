@@ -3,6 +3,8 @@
 * @delino12 | #code_dreamer
 */
 
+
+const Jquery = require("./Jquery");
 class Mimi {
 	constructor(query){
 		if(!query.api_key) throw new Error("Mimi require `api_keys` provide one or see Mimi docs!");
@@ -173,5 +175,5 @@ class Mimi {
 		});
 	}
 }
-
+window.Jquery = Jquery;
 window.Mimi = Mimi;
