@@ -117,7 +117,7 @@ class Mimi {
 				document.getElementById("form-message").innerHTML = `
 					<br />
 					<div class="mimi-error-alert">
-						Type an issue...
+						Type a message...
 					</div>
 				`;
 
