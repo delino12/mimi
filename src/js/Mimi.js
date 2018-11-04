@@ -52,7 +52,7 @@ class Mimi {
 						</h4>
 					</div>
 					<div class="mimi-input">
-						<textarea class="mimi-textarea" id="mimi-text" cols="47" rows="5" placeholder="Type a message..."></textarea>
+						<textarea class="mimi-textarea" id="mimi-text" cols="10" rows="5" placeholder="Type a message..."></textarea>
 					</div>
 					<div class="mimi-input">
 						<button class="mimi-btn" id="mimi-btn" type="submit">
